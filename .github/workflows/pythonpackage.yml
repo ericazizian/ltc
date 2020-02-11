@@ -32,19 +32,3 @@ jobs:
         pip install pytest
         pytest
         
-				- name: Web Request Action
-  uses: Satak/webrequest-action@v1.2.2
-  with:
-    # Web request URL endpoint
-    url: 
-    # Web request method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`)
-    method: # default is GET
-    # Web request payload in JSON format
-    payload: # optional
-    # Web request headers in JSON format
-    headers: # optional
-    # username for BASIC auth
-    username: # optional
-    # password for BASIC auth
-    password: # optional
-        
